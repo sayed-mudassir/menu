@@ -80,7 +80,7 @@ const menu =
 
 const categoryList = ["All", "breakfast", "lunch", "shakes"];
 export const  Menu = ()=>{
-    const [category, setCategory] = useState(categoryList[1]);
+    const [category, setCategory] = useState(categoryList[0]);
     const selectedList = menu.filter((dish) => dish.category === category
       // return category === "All" || dish.category === category;
     )
