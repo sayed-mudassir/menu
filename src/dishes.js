@@ -10,7 +10,7 @@ export const DishesList = ({selectedList})=>{
                             <b>{dish.title}</b>
                             <span>Rs. {dish.price}</span>
                         </div>
-                        <p>{dish.desc}</p>
+                        <p style={{color:"#868686"}}>{dish.desc}</p>
                     </div>
                 </div>)
             })}
