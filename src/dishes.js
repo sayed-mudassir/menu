@@ -6,9 +6,9 @@ export const DishesList = ({selectedList})=>{
                 <div className="dish-card">
                     <img src={dish.img}/>
                     <div>
-                        <div>
+                        <div className="title">
                             <b>{dish.title}</b>
-                            <span>{dish.price}</span>
+                            <span>Rs. {dish.price}</span>
                         </div>
                         <p>{dish.desc}</p>
                     </div>
